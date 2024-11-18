@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Teun van de Laar</title>
+    <title>Contact - Teun van de Laar</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Teun van de Laar</h1>
+        <p>AI Engineer | Robotics Enthusiast | Musician</p>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,35 +19,24 @@
             </ul>
         </nav>        
     </header>
-    
-    <!-- About Content -->
     <main>
-        <section id="intro">
-            <h2>About Me</h2>
-            <p>Hi! I'm Teun, an AI enthusiast with a passion for robotics and the energy transition. My goal is to apply innovative technology to solve real-world problems.</p>
-        </section>
-        
-        <section id="education">
-            <h2>Education</h2>
-            <p>I graduated with a Master's degree in Artificial Intelligence and Engineering Systems from Eindhoven University of Technology, where I worked on my thesis, "VernaCopter", a system for controlling drones with natural language.</p>
-        </section>
-        
-        <section id="skills">
-            <h2>Skills & Interests</h2>
-            <ul>
-                <li>Machine Learning & AI</li>
-                <li>Robotics & Automation</li>
-                <li>Data Science</li>
-                <li>Music (Bass Guitar & Guitar)</li>
-            </ul>
-        </section>
-        
-        <section id="motivation">
-            <h2>My Motivation</h2>
-            <p>I'm motivated by the potential of AI and robotics to drive positive change, especially in areas like renewable energy and automation. I am excited to be part of the technological revolution that will shape the future.</p>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, please fill out the form below:</p>
+            <form action="mailto:iteun.vd.laar@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2024 Teun van de Laar</p>
     </footer>
