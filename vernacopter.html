@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VernaCopter</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            text-align: center;
+            background: #007bff;
+            color: white;
+            padding: 1em 0;
+        }
+        main {
+            padding: 1em;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>VernaCopter</h1>
     </header>
     <main>
-        <section>
-            <h2>About the Project</h2>
-            <p>VernaCopter is an innovative system for drone control using natural language. It translates task descriptions into Signal Temporal Logic (STL) for autonomous motion planning. This project leverages Large Language Models (LLMs) for seamless human-drone interaction.</p>
-        </section>
-        <section>
-            <h2>Key Features</h2>
-            <ul>
-                <li>Natural language to STL conversion</li>
-                <li>Autonomous motion planning</li>
-                <li>Interactive drone control</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Related Resources</h2>
-            <p>Read the full paper submitted to ICRA <a href="https://www.arxiv.org/abs/2409.09536" target="_blank">here</a>.</p>
-            <p>View the GitHub repository <a href="https://github.com/TeunvdL/ChatGPT_Drone_Control.git" target="_blank">here</a>.</p>
-        </section>
+        <p>VernaCopter is an innovative system for drone control using natural language and STL for motion planning.</p>
+        <img src="images/vernacopter-demo.gif" alt="VernaCopter Demo" style="max-width: 100%; height: auto;">
+        <p><a href="index.html">Back to Home</a></p>
     </main>
     <footer>
-        <p>Back to <a href="index.html">Home</a></p>
+        <p>&copy; 2024 Teun van de Laar</p>
     </footer>
 </body>
 </html>

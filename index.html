@@ -1,38 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Teun van de Laar - Projects</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teun van de Laar - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, footer {
+            text-align: center;
+            background: #007bff;
+            color: white;
+            padding: 1em 0;
+        }
+        main {
+            padding: 1em;
+        }
+        .project {
+            border: 1px solid #ddd;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            background: white;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 0.5em;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Showcasing my work in AI, engineering, and drone systems.</p>
+        <h1>Teun van de Laar</h1>
+        <p>AI Engineer | Robotics Enthusiast | Musician</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="vernacopter.html">VernaCopter Project</a></li>
-        </ul>
-    </nav>
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hi, I'm Teun van de Laar, a recent graduate passionate about robotics and AI. Check out my projects below!</p>
+            <p>Hi! I'm Teun, a recent AI graduate passionate about robotics and the energy transition. This is my personal portfolio showcasing my projects.</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a href="vernacopter.html">VernaCopter: Drone Control with Natural Language</a>
-                    <p>An innovative system for drone control using natural language and LLMs.</p>
-                </li>
-                <!-- Add more projects here -->
-            </ul>
+            <div class="project">
+                <h3><a href="vernacopter.html">VernaCopter</a></h3>
+                <img src="images/vernacopter-thumbnail.png" alt="VernaCopter">
+                <p>An innovative drone control system using natural language and STL for motion planning.</p>
+            </div>
+            <!-- Add more projects here -->
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Teun van de Laar. All rights reserved.</p>
+        <p>&copy; 2024 Teun van de Laar</p>
     </footer>
 </body>
 </html>
