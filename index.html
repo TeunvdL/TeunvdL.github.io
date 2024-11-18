@@ -17,23 +17,31 @@
         }
         header {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
             padding: 1em;
             background: #6EB6B9;
             color: white;
         }
         header img {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
-            margin-right: 1em;
+            margin-bottom: 1em;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0.5em 0;
         }
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
+            justify-content: center; /* Center the navigation links */
+            width: 100%;
         }
         nav ul li {
             margin: 0 1em;
@@ -74,10 +82,8 @@
 <body>
     <header>
         <img src="images/portrait_Teun.JPG" alt="Teun van de Laar">
-        <div>
-            <h1>Teun van de Laar</h1>
-            <p>AI Engineer | Robotics Enthusiast | Musician</p>
-        </div>
+        <h1>Teun van de Laar</h1>
+        <p>AI Engineer | Robotics Enthusiast | Musician</p>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
