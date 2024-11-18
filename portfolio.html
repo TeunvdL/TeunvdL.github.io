@@ -3,39 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Teun van de Laar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Portfolio</h1>
-        <p>Explore my projects.</p>
+        <h1>Teun van de Laar</h1>
+        <p>AI Engineer | Robotics Enthusiast | Musician</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>        
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <section>
-            <h2>Project 1</h2>
-            <p>Description of the first project...</p>
-            <a href="project1.html">Learn More</a>
-        </section>
-        <section>
-            <h2>Project 2</h2>
-            <p>Description of the second project...</p>
-            <a href="project2.html">Learn More</a>
+        <section id="portfolio">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3><a href="vernacopter.html">VernaCopter</a></h3>
+                <img src="images/vernacopter-thumbnail.png" alt="VernaCopter" style="max-width: 200px; height: auto;">
+                <p>An innovative drone control system using natural language and STL for motion planning.</p>
+            </div>
+            <!-- Add more projects here -->
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 Teun van de Laar</p>
     </footer>
 </body>
 </html>

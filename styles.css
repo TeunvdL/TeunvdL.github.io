@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #6EB6B9; /* Greenish color */
+    background-color: #6EB6B9;
     color: white;
     padding: 1.5em 0;
     text-align: center;
@@ -27,10 +27,6 @@ header p {
 }
 
 /* Navigation Styling */
-nav {
-    background-color: #4a8e8c; /* Slightly darker green for the nav pane */
-}
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -40,75 +36,72 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0;
+    margin: 0 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 1em 1.5em;
-    display: inline-block;
+    font-weight: 700;
 }
 
 nav ul li a:hover {
-    background-color: #3d7070; /* Darker shade for hover */
+    text-decoration: underline;
 }
 
 /* Main Content Styling */
 main {
-    padding: 2em 1em;
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-h2 {
-    font-size: 2em;
-    color: #6EB6B9;
-    margin-bottom: 0.5em;
-}
-
-p {
-    font-size: 1em;
-    margin-bottom: 1em;
+    padding: 1em;
 }
 
 /* Project Section Styling */
 .project {
     border: 1px solid #ddd;
-    border-radius: 5px;
+    margin: 1em 0;
     padding: 1em;
-    background-color: white;
-    margin-bottom: 1.5em;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.project h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-.project a {
-    text-decoration: none;
-    color: #6EB6B9;
-}
-
-.project a:hover {
-    text-decoration: underline;
+    border-radius: 5px;
+    background: white;
 }
 
 .project img {
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
-    display: block; 
-    margin-bottom: 1em;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+/* Form Styling */
+form {
+    margin-top: 1em;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #6EB6B9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5c9b9b;
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
-    background-color: #6EB6B9; /* Greenish color */
+    background-color: #6EB6B9;
     color: white;
     padding: 1em 0;
     position: relative;
