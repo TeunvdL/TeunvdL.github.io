@@ -17,7 +17,7 @@
         }
         header {
             display: flex;
-            flex-direction: column;
+            justify-content: space-between; /* Put the portrait on the left */
             align-items: center;
             padding: 1em;
             background: #6EB6B9;
@@ -27,7 +27,10 @@
             width: 80px;
             height: 80px;
             border-radius: 50%;
-            margin-bottom: 1em;
+        }
+        header .header-content {
+            text-align: center;
+            flex-grow: 1; /* Allow the content to grow and center */
         }
         header h1 {
             margin: 0;
@@ -82,16 +85,18 @@
 <body>
     <header>
         <img src="images/portrait_Teun.JPG" alt="Teun van de Laar">
-        <h1>Teun van de Laar</h1>
-        <p>AI Engineer | Robotics Enthusiast | Musician</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>        
+        <div class="header-content">
+            <h1>Teun van de Laar</h1>
+            <p>AI Engineer | Robotics Enthusiast | Musician</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>      
     </header>
     <!-- Hero Section -->
     <section id="hero">
