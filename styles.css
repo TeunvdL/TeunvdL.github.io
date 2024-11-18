@@ -10,7 +10,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #007bff;
+    background-color: #6EB6B9;
     color: white;
     padding: 1.5em 0;
     text-align: center;
@@ -26,13 +26,13 @@ header p {
     margin: 0.5em 0 0;
 }
 
-/* Navigation Styling (Optional if you add a nav menu) */
+/* Navigation Styling */
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    background: #0056b3;
     margin: 0;
+    text-align: center;
+    background-color: #6EB6B9;
 }
 
 nav ul li {
@@ -43,13 +43,14 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 0.5em 1em;
+    padding: 1em 1.5em;
     display: inline-block;
 }
 
 nav ul li a:hover {
-    background: #003d80;
+    background-color: #6EB6B9;
 }
+
 
 /* Main Content Styling */
 main {
@@ -88,7 +89,7 @@ p {
 
 .project a {
     text-decoration: none;
-    color: #007bff;
+    color: #6EB6B9;
 }
 
 .project a:hover {
@@ -105,7 +106,7 @@ p {
 
 footer {
     text-align: center;
-    background-color: #007bff;
+    background-color: #6EB6B9;
     color: white;
     padding: 1em 0;
     position: relative;
