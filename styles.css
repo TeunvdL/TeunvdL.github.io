@@ -10,7 +10,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #6EB6B9;
+    background-color: #6EB6B9; /* Greenish color */
     color: white;
     padding: 1.5em 0;
     text-align: center;
@@ -27,12 +27,15 @@ header p {
 }
 
 /* Navigation Styling */
+nav {
+    background-color: #4a8e8c; /* Slightly darker green for the nav pane */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #6EB6B9;
 }
 
 nav ul li {
@@ -48,9 +51,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #6EB6B9;
+    background-color: #3d7070; /* Darker shade for hover */
 }
-
 
 /* Main Content Styling */
 main {
@@ -103,10 +105,10 @@ p {
     margin-bottom: 1em;
 }
 
-
+/* Footer Styling */
 footer {
     text-align: center;
-    background-color: #6EB6B9;
+    background-color: #6EB6B9; /* Greenish color */
     color: white;
     padding: 1em 0;
     position: relative;
