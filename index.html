@@ -1,114 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teun van de Laar - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 1em;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            display: flex;
-            justify-content: space-between; /* Put the portrait on the left */
-            align-items: center;
-            padding: 1em;
-            background: #6EB6B9;
-            color: white;
-        }
-        header img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-        }
-        header .header-content {
-            text-align: center;
-            flex-grow: 1; /* Allow the content to grow and center */
-        }
-        header h1 {
-            margin: 0;
-        }
-        header p {
-            margin: 0.5em 0;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center; /* Center the navigation links */
-            width: 100%;
-        }
-        nav ul li {
-            margin: 0 1em;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5em 1em;
-        }
-        nav ul li a:hover {
-            background-color: #4a8c88;
-        }
-        main {
-            padding: 2em;
-        }
-        .project {
-            border: 1px solid #ddd;
-            margin: 1em 0;
-            padding: 1em;
-            border-radius: 5px;
-            background: white;
-        }
-        a {
-            color: #6EB6B9;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .project img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 0.5em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teun van de Laar - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0; /* Remove padding to allow header and footer to fill window */
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, footer {
+      display: flex; /* Make header and footer use flexbox */
+      justify-content: center; /* Center content horizontally */
+      align-items: center; /* Center content vertically (optional) */
+      width: 100%; /* Span the entire window width */
+      padding: 1em; /* Add some padding for content */
+    }
+    header {
+      background: #6EB6B9;
+      color: white;
+    }
+    header .header-content {
+      text-align: center; /* Center the content within header */
+      flex-grow: 1; /* Allow the content to grow and center within header flexbox */
+    }
+    header h1 {
+      margin: 0;
+    }
+    header p {
+      margin: 0.5em 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center; /* Center the navigation links */
+      width: 100%;
+    }
+    nav ul li {
+      margin: 0 1em;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5em 1em;
+    }
+    nav ul li a:hover {
+      background-color: #4a8c88;
+    }
+    main {
+      padding: 2em;
+    }
+    .project {
+      border: 1px solid #ddd;
+      margin: 1em 0;
+      padding: 1em;
+      border-radius: 5px;
+      background: white;
+    }
+    a {
+      color: #6EB6B9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 0.5em;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="images/portrait_Teun.JPG" alt="Teun van de Laar">
-        <div class="header-content">
-            <h1>Teun van de Laar</h1>
-            <p>AI Engineer | Robotics Enthusiast | Musician</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>      
-    </header>
-    <!-- Hero Section -->
-    <section id="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>I'm Teun, a passionate AI engineer with a focus on robotics and the energy transition. Explore my projects and get in touch!</p>
-        <div class="cta-buttons">
-            <a href="portfolio.html" class="btn">Explore My Projects</a>
-            <a href="about.html" class="btn">Learn More About Me</a>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 Teun van de Laar</p>
-    </footer>
-</body>
-</html>
+  <header>
+    <img src="images/portrait_Teun.JPG" alt="Teun van de Laar">
+    <div class="header-content">
+      <h1>Teun van de Laar</h1>
+      <p>AI Engineer | Robotics Enthusiast | Musician</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I'm Teun, a passionate AI engineer with a focus on robotics and the energy transition. Explore my projects and get in touch!</p>
+    <div class="cta-buttons">
+      <a href="portfolio.html" class="btn">Explore My Projects</a>
+      <a href="about.html" class="btn">Learn More About Me</a>
+    </div>
+  </section>
