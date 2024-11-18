@@ -96,13 +96,13 @@ p {
 }
 
 .project img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
-    border-radius: 5px;
+    display: block; 
     margin-bottom: 1em;
 }
 
-/* Footer Styling */
+
 footer {
     text-align: center;
     background-color: #007bff;
