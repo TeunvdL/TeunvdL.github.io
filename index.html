@@ -16,7 +16,8 @@
         }
         header {
             display: flex;
-            align-items: center; /* Align items vertically */
+            align-items: center;
+            justify-content: space-between; /* Distribute items evenly across the header */
             padding: 1em;
             background: #6EB6B9;
             color: white;
@@ -25,14 +26,13 @@
             width: 130px;
             height: auto;
             border-radius: 50%;
-            margin-right: 1em;
         }
         header .header-content {
-            flex-grow: 1; /* Allow content to grow and occupy available space */
-            text-align: center;
-            display: flex;
-            flex-direction: column; /* Stack text and navigation vertically */
-            justify-content: center; /* Center text vertically */
+            flex-grow: 1; /* Take up as much space as needed */
+            text-align: center; /* Center the text */
+        }
+        header .spacer {
+            width: 130px; /* Match the portrait width */
         }
         header h1 {
             margin: 0;
@@ -47,8 +47,7 @@
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: center; /* Center navigation links horizontally */
-            flex-wrap: wrap;
+            justify-content: center; /* Center navigation links */
         }
         nav ul li {
             margin: 0 1em;
@@ -104,6 +103,7 @@
                 </ul>
             </nav>
         </div>
+        <div class="spacer"></div> <!-- Spacer matching the portrait size -->
     </header>
     <main>
         <section id="hero">
