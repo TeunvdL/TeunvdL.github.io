@@ -15,6 +15,11 @@ header .header-content {
     text-align: center;
 }
 
+header .header-back-button {
+    width: 150px;
+    margin-right: auto;
+}
+
 header h1 {
     margin: 0;
     font-size: 1.8em;
@@ -34,6 +39,16 @@ header a.back-button {
     border-radius: 5px; /* Add rounded corners */
     margin-left: 1em; /* Add margin to position the button */
   }
+
+  header .header-back-button {
+    width: 150px;
+    margin-right: auto;
+}
+
+.empty-box {
+    width: 150px;
+    margin-left: auto;
+}
 
 main {
     padding: 2em;
