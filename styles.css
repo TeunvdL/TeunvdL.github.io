@@ -99,3 +99,25 @@ header {
   a:hover {
     text-decoration: underline;
   }
+
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust gap as needed */
+}
+
+.btn {
+    background-color: #4a8c88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #336666;
+}
