@@ -3,8 +3,13 @@ body, html {
     margin: 0;
     padding: 0;
     min-height: 100%;
+}
+
+/* Ensure consistent layout */
+.page-container {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Body Styling */
@@ -18,7 +23,6 @@ body {
 /* Header Styling */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1em;
     background: #6EB6B9;
@@ -26,14 +30,15 @@ header {
 }
 
 header img {
-    width: 80px;
-    height: 80px;
+    width: 130px;
+    height: auto;
     border-radius: 50%;
+    margin-right: 1em;
 }
 
 header .header-content {
-    text-align: center;
     flex-grow: 1;
+    text-align: center;
 }
 
 header h1 {
@@ -66,10 +71,29 @@ nav ul li a:hover {
     background-color: #4a8c88;
 }
 
-/* Main Content Styling */
-main {
-    flex-grow: 1; /* Ensures the main content fills remaining space */
-    padding: 2em;
+/* Hero Section */
+#hero {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.cta-buttons {
+    margin-top: 1em;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    margin: 0.5em;
+    border: none;
+    background-color: #6EB6B9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #4a8c88;
 }
 
 /* Footer Styling */
@@ -78,4 +102,5 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
+    margin-top: auto;
 }
