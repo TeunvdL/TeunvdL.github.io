@@ -1,84 +1,108 @@
 /* Header Styling */
 header {
     display: flex;
-    align-items: center; /* Align items vertically */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Vertically align items */
     padding: 1em;
     background: #6EB6B9;
     color: white;
-  }
-  
-  header img {
+}
+
+header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content vertically */
+    text-align: center;
+}
+
+header img {
     width: 130px;
     height: auto;
     border-radius: 50%;
     margin-right: 1em;
-  }
-  
-  header .header-content {
-    flex-grow: 1; /* Allow content to grow and occupy available space */
-    text-align: center;
-    display: flex;
-    flex-direction: column; /* Stack text and navigation vertically */
-    justify-content: center; /* Center text vertically */
-  }
-  
-  header h1 {
+}
+
+header h1 {
     margin: 0;
-    font-size: 2em;
-  }
-  
-  header p {
+    font-size: 1.8em;
+    /* Adjust size for better visuals */
+}
+
+header p {
     margin: 0.5em 0;
-    font-size: 1.1em;
-  }
-  
-  nav ul {
+}
+
+.empty-box {
+    width: 130px;
+    /* Match the width of the image */
+    height: auto;
+    /* Match the height of the image */
+}
+
+nav {
+    background-color: #336666;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+    /* Add transition effect */
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Center navigation links horizontally */
+    justify-content: center;
+    /* Center navigation links horizontally */
     flex-wrap: wrap;
-  }
-  
-  nav ul li {
+    /* Allow wrapping if needed on smaller screens */
+}
+
+nav ul li {
     margin: 0 1em;
-  }
-  
-  nav ul li a {
-    color: white;
+}
+
+nav ul li a {
+    color: #4a8c88;
+    /* Lighter green color for text */
     text-decoration: none;
     padding: 0.5em 1em;
-  }
-  
-  nav ul li a:hover {
+    font-size: 1.2em;
+    /* Increase font size */
+    font-weight: bold;
+    /* Make font bold */
+    border: none;
+    /* Remove individual button borders */
+}
+
+nav ul li a:hover {
     background-color: #4a8c88;
-  }
-  
-  /* Body Styles */
-  body {
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     background-color: #f9f9f9;
     color: #333;
-  }
-  
-  /* Main Content */
-  main {
+}
+
+main {
     padding: 2em;
-  }
-  
-  .project {
+}
+
+.project {
     border: 1px solid #ddd;
     margin: 1em 0;
     padding: 1em;
     border-radius: 5px;
     background: white;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 1em;
     background: #6EB6B9;
@@ -86,26 +110,25 @@ header {
     position: fixed;
     width: 100%;
     bottom: 0;
-  }
-  
-  /* Links */
-  a {
+}
+
+a {
     color: #6EB6B9;
+    /* Link color */
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* Button Styles */
-  .cta-buttons {
+}
+
+.cta-buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
-  }
-  
-  .btn {
+}
+
+.btn {
     background-color: #4a8c88;
     color: white;
     border: none;
@@ -115,8 +138,8 @@ header {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #336666;
-  }
+}
