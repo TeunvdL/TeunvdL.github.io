@@ -2,9 +2,7 @@
 header {
     display: flex;
     justify-content: center;
-    /* Center content horizontally */
     align-items: center;
-    /* Vertically align items */
     padding: 1em;
     background: #6EB6B9;
     color: white;
@@ -14,7 +12,6 @@ header .header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Center content vertically */
     text-align: center;
 }
 
@@ -28,7 +25,6 @@ header img {
 header h1 {
     margin: 0;
     font-size: 1.8em;
-    /* Adjust size for better visuals */
 }
 
 header p {
@@ -37,9 +33,7 @@ header p {
 
 .empty-box {
     width: 130px;
-    /* Match the width of the image */
     height: auto;
-    /* Match the height of the image */
 }
 
 nav {
@@ -47,7 +41,6 @@ nav {
     border-radius: 5px;
     padding: 10px;
     transition: background-color 0.3s ease-in-out;
-    /* Add transition effect */
 }
 
 nav ul {
@@ -56,9 +49,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    /* Center navigation links horizontally */
     flex-wrap: wrap;
-    /* Allow wrapping if needed on smaller screens */
 }
 
 nav ul li {
@@ -66,16 +57,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4a8c88;
-    /* Lighter green color for text */
+    color: white;
     text-decoration: none;
     padding: 0.5em 1em;
     font-size: 1.2em;
-    /* Increase font size */
     font-weight: bold;
-    /* Make font bold */
     border: none;
-    /* Remove individual button borders */
 }
 
 nav ul li a:hover {
