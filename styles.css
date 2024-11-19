@@ -70,6 +70,26 @@ nav ul li a:hover {
     background-color: #4a8c88;
 }
 
+header a {
+    color: white;
+}
+
+header a.back-button {
+    color: white; /* Adjust color if needed */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5em 1em; /* Adjust padding if needed */
+    font-size: 1em; /* Adjust font size if needed */
+    background-color: #4a8c88; /* Add a background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 1em; /* Add margin to position the button */
+  }
+
+.project-empty-box {
+    width: 300px;
+    margin-left: auto;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
