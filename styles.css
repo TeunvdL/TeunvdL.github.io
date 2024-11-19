@@ -1,104 +1,96 @@
-/* Body Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  /* Header Styles */
-  header {
+/* Header Styling */
+header {
     display: flex;
     justify-content: center;
+    /* Center content horizontally */
     align-items: center;
+    /* Vertically align items */
     padding: 1em;
     background: #6EB6B9;
     color: white;
-  }
-  
-  header .header-content {
-    flex-grow: 1;
-    text-align: center;
+}
+
+header .header-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
-  
-  header img {
+    align-items: center;
+    /* Center content vertically */
+    text-align: center;
+}
+
+header img {
     width: 130px;
     height: auto;
     border-radius: 50%;
     margin-right: 1em;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     margin: 0;
     font-size: 1.8em;
-  }
-  
-  header p {
+    /* Adjust size for better visuals */
+}
+
+header p {
     margin: 0.5em 0;
-  }
-  
-  /* Navigation Styles */
-  nav {
+}
+
+.empty-box {
+    width: 130px;
+    /* Match the width of the image */
+    height: auto;
+    /* Match the height of the image */
+}
+
+nav {
     background-color: #336666;
     border-radius: 5px;
     padding: 10px;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  nav ul {
+    /* Add transition effect */
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    /* Center navigation links horizontally */
     flex-wrap: wrap;
-  }
-  
-  nav ul li {
+    /* Allow wrapping if needed on smaller screens */
+}
+
+nav ul li {
     margin: 0 1em;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: #4a8c88;
+    /* Lighter green color for text */
     text-decoration: none;
     padding: 0.5em 1em;
     font-size: 1.2em;
+    /* Increase font size */
     font-weight: bold;
+    /* Make font bold */
     border: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #4a8c88;
-  }
-  
-  /* Main Content Styles */
-  main {
+    /* Remove individual button borders */
+}
+
+main {
     padding: 2em;
-  }
-  
-  section {
-    text-align: center;
-  }
-  
-  section h2 {
-    margin-bottom: 1em;
-  }
-  
-  section p {
-    margin-bottom: 1em;
-  }
-  
-  section img {
-    border-radius: 50%;
-    margin-bottom: 2em;
-  }
-  
-  /* Footer Styles */
-  footer {
+}
+
+.project {
+    border: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    background: white;
+}
+
+footer {
     text-align: center;
     padding: 1em;
     background: #6EB6B9;
@@ -106,26 +98,25 @@ body {
     position: fixed;
     width: 100%;
     bottom: 0;
-  }
-  
-  /* General Link Styles */
-  a {
+}
+
+a {
     color: #6EB6B9;
+    /* Link color */
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  
-  /* CTA Button Styles */
-  .cta-buttons {
+}
+
+.cta-buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
-  }
-  
-  .btn {
+}
+
+.btn {
     background-color: #4a8c88;
     color: white;
     border: none;
@@ -135,8 +126,8 @@ body {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #336666;
-  }
+}

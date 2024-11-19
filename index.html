@@ -1,41 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teun van de Laar - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teun van de Laar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            display: flex;
+            align-items: center; /* Align items vertically */
+            padding: 1em;
+            background: #6EB6B9;
+            color: white;
+        }
+        header img {
+            width: 130px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 1em;
+        }
+        header .header-content {
+            flex-grow: 1; /* Allow content to grow and occupy available space */
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Stack text and navigation vertically */
+            justify-content: center; /* Center text vertically */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            margin: 0.5em 0;
+            font-size: 1.1em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Center navigation links horizontally */
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        nav ul li a:hover {
+            background-color: #4a8c88;
+        }
+        main {
+            padding: 2em;
+        }
+        .project {
+            border: 1px solid #ddd;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            background: white;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background: #6EB6B9;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #6EB6B9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="images/portrait_Teun.JPG" alt="Teun van de Laar">
-    <div class="header-content">
-      <h1>Teun van de Laar</h1>
-      <p>AI Engineer | Robotics Enthusiast | Musician</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="empty-box"></div>
-  </header>
-  <main>
-    <section id="hero">
-      <h2>Welcome to My Portfolio</h2>
-      <p>I'm Teun, a passionate AI engineer with a focus on robotics and the energy transition. Explore my projects and get in touch!</p>
-      <div class="cta-buttons">
-        <button class="btn">Explore My Projects</button>
-        <button class="btn">Learn More About Me</button>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Teun van de Laar</p>
-  </footer>
+    <header>
+        <img src="images/portrait_Teun.JPG" alt="Teun van de Laar">
+        <div class="header-content">
+            <h1>Teun van de Laar</h1>
+            <p>AI Engineer | Robotics Enthusiast | Musician</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="empty-box"></div>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I'm Teun, a passionate AI engineer with a focus on robotics and the energy transition. Explore my projects and get in touch!</p>
+            <div class="cta-buttons">
+                <button class="btn">Explore My Projects</button>
+                <button class="btn">Learn More About Me</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Teun van de Laar</p>
+    </footer>
 </body>
 </html>
