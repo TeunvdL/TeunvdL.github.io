@@ -1,29 +1,7 @@
-/* General Reset */
-body, html {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
-
-/* Ensure consistent layout */
-.page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Body Styling */
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
 /* Header Styling */
 header {
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically align items */
     padding: 1em;
     background: #6EB6B9;
     color: white;
@@ -37,12 +15,16 @@ header img {
 }
 
 header .header-content {
-    flex-grow: 1;
+    flex-grow: 1; /* Allow the content to fill available space */
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack text and navigation vertically */
+    justify-content: center; /* Center vertically */
 }
 
 header h1 {
     margin: 0;
+    font-size: 1.8em; /* Adjust size for better visuals */
 }
 
 header p {
@@ -55,6 +37,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping if needed on smaller screens */
 }
 
 nav ul li {
@@ -69,38 +52,4 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #4a8c88;
-}
-
-/* Hero Section */
-#hero {
-    text-align: center;
-    margin: 2em 0;
-}
-
-.cta-buttons {
-    margin-top: 1em;
-}
-
-.cta-buttons .btn {
-    display: inline-block;
-    padding: 0.8em 1.5em;
-    margin: 0.5em;
-    border: none;
-    background-color: #6EB6B9;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.cta-buttons .btn:hover {
-    background-color: #4a8c88;
-}
-
-/* Footer Styling */
-footer {
-    background: #6EB6B9;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    margin-top: auto;
 }
