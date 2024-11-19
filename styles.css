@@ -70,6 +70,11 @@ nav ul li a:hover {
     background-color: #4a8c88;
 }
 
+header .header-back-button {
+    width: 300px;
+    margin-right: auto;
+}
+
 header a {
     color: white;
 }
