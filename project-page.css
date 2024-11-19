@@ -16,7 +16,7 @@ header .header-content {
 }
 
 header .header-back-button {
-    width: 150px;
+    width: 300px;
     margin-right: auto;
 }
 
@@ -41,7 +41,7 @@ header a.back-button {
   }
 
   header .header-back-button {
-    width: 150px;
+    width: 300px;
     margin-right: auto;
 }
 
