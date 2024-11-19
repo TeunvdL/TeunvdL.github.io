@@ -40,13 +40,8 @@ header a.back-button {
     margin-left: 1em; /* Add margin to position the button */
   }
 
-  header .header-back-button {
-    width: 300px;
-    margin-right: auto;
-}
-
 .empty-box {
-    width: 150px;
+    width: 300px;
     margin-left: auto;
 }
 
