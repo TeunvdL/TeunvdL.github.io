@@ -1,7 +1,6 @@
 /* Header Styling */
 header {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 1em;
     background: #6EB6B9;
@@ -19,7 +18,7 @@ header img {
     width: 130px;
     height: auto;
     border-radius: 50%;
-    margin-right: auto;
+    margin-right: 1em;
 }
 
 header h1 {
