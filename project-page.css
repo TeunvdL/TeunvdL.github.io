@@ -8,86 +8,17 @@ header {
     color: white;
 }
 
-header .header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-header img {
-    width: 130px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: auto;
-}
-
 header h1 {
     margin: 0;
     font-size: 1.8em;
 }
 
-header p {
-    margin: 0.5em 0;
-}
-
-.empty-box {
-    width: 130px;
-    height: auto;
-    margin-left: auto;
-}
-
-nav {
-    background-color: #336666;
-    border-radius: 5px;
-    padding: 10px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    margin: 0 1em;
-}
-
-nav ul li a {
+header a {
     color: white;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    font-size: 1.2em;
-    font-weight: bold;
-    border: none;
-}
-
-nav ul li a:hover {
-    background-color: #4a8c88;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    background-color: #f9f9f9;
-    color: #333;
 }
 
 main {
     padding: 2em;
-}
-
-.project {
-    border: 1px solid #ddd;
-    margin: 1em 0;
-    padding: 1em;
-    border-radius: 5px;
-    background: white;
 }
 
 footer {
@@ -98,36 +29,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-a {
-    color: #6EB6B9;
-    /* Link color */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.cta-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.btn {
-    background-color: #4a8c88;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.btn:hover {
-    background-color: #336666;
 }
