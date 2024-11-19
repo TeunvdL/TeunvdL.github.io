@@ -6,61 +6,91 @@ header {
     padding: 1em;
     background: #6EB6B9;
     color: white;
-}
-
-header .header-content {
+  }
+  
+  header .header-content {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content vertically */
     text-align: center;
-}
-
-header img {
+  }
+  
+  header img {
     width: 130px;
     height: auto;
     border-radius: 50%;
     margin-right: 1em;
-}
-
-header h1 {
+  }
+  
+  header h1 {
     margin: 0;
     font-size: 1.8em; /* Adjust size for better visuals */
-}
-
-header p {
+  }
+  
+  header p {
     margin: 0.5em 0;
-}
-
-.empty-box {
+  }
+  
+  .empty-box {
     width: 130px; /* Match the width of the image */
     height: auto; /* Match the height of the image */
-}
-
-nav ul {
+  }
+  
+  nav {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center navigation links horizontally */
     flex-wrap: wrap; /* Allow wrapping if needed on smaller screens */
-}
-
-nav ul li {
+    background-color: #336666; /* Dark green background */
+  }
+  
+  nav ul li {
     margin: 0 1em;
-}
-
-nav ul li a {
-    color: #fff; /* White text */
+  }
+  
+  nav ul li a {
+    color: #4a8c88; /* Lighter green color for text */
     text-decoration: none;
     padding: 0.5em 1em;
     font-size: 1.2em; /* Increase font size */
     font-weight: bold; /* Make font bold */
-    background-color: #4a8c88;
-    color: white;
     border-radius: 5px; /* Add rounded corners */
-}
-
-nav ul li a:hover {
-    background-color: #336666;
-    transform: scale(1.05); /* Slightly enlarge on hover */
-}
+  }
+  
+  /* nav ul li a:hover {  /* Commented out, not needed anymore */
+      /* background-color: #336666; */
+      /* transform: scale(1.05); */
+  /* } */
+   /* */ 
+  main {
+    padding: 2em;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #6EB6B9;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  a {
+    color: #6EB6B9; /* Link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
