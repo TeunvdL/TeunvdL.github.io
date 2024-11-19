@@ -31,6 +31,11 @@ header p {
     margin: 0.5em 0;
 }
 
+.empty-box {
+    width: 130px; /* Match the width of the image */
+    height: auto; /* Match the height of the image */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
