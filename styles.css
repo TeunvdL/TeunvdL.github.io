@@ -50,11 +50,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff; /* White text */
     text-decoration: none;
     padding: 0.5em 1em;
+    font-size: 1.2em; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+    background-color: #4a8c88;
+    color: white;
+    border-radius: 5px; /* Add rounded corners */
 }
 
 nav ul li a:hover {
-    background-color: #4a8c88;
+    background-color: #336666;
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
