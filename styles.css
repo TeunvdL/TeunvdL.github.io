@@ -1,116 +1,81 @@
-/* General Styling */
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background-color: #f9f9f9;
     color: #333;
 }
 
 /* Header Styling */
 header {
-    background-color: #6EB6B9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: #6EB6B9;
     color: white;
-    padding: 1.5em 0;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+header .header-content {
     text-align: center;
+    flex-grow: 1;
 }
 
 header h1 {
-    font-size: 2.5em;
     margin: 0;
 }
 
 header p {
-    font-size: 1.2em;
-    margin: 0.5em 0 0;
+    margin: 0.5em 0;
 }
 
-/* Navigation Styling */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
-    color: #5C9E9D;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 1em;
 }
 
 nav ul li a {
-    text-decoration: none;
     color: white;
-    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5em 1em;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #4a8c88;
 }
 
 /* Main Content Styling */
 main {
-    padding: 1em;
-}
-
-/* Project Section Styling */
-.project {
-    border: 1px solid #ddd;
-    margin: 1em 0;
-    padding: 1em;
-    border-radius: 5px;
-    background: white;
-}
-
-.project img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 0.5em;
-}
-
-/* Form Styling */
-form {
-    margin-top: 1em;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form input[type="submit"] {
-    background-color: #6EB6B9;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-    background-color: #5c9b9b;
+    flex-grow: 1; /* Ensures the main content fills remaining space */
+    padding: 2em;
 }
 
 /* Footer Styling */
 footer {
-    text-align: center;
-    background-color: #6EB6B9;
+    background: #6EB6B9;
     color: white;
-    padding: 1em 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9em;
+    text-align: center;
+    padding: 1em;
 }
