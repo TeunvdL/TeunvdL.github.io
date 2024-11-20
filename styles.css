@@ -306,7 +306,7 @@ a:hover {
 }
   
   .article-content img {
-    max-width: 150px; /* Adjust the size of the thumbnail as needed */
+    max-width: 230px; /* Adjust the size of the thumbnail as needed */
     height: auto;
     border-radius: 5px;
   }
