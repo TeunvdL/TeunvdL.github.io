@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -92,15 +93,23 @@ header a {
 }
 
 header a.back-button {
-    color: white; /* Adjust color if needed */
-    text-decoration: none; /* Remove underline */
-    padding: 0.5em 1em; /* Adjust padding if needed */
-    font-size: 1em; /* Adjust font size if needed */
-    background-color: #4a8c88; /* Add a background color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add rounded corners */
-    margin-left: 1em; /* Add margin to position the button */
-  }
+    color: white;
+    /* Adjust color if needed */
+    text-decoration: none;
+    /* Remove underline */
+    padding: 0.5em 1em;
+    /* Adjust padding if needed */
+    font-size: 1em;
+    /* Adjust font size if needed */
+    background-color: #4a8c88;
+    /* Add a background color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    margin-left: 1em;
+    /* Add margin to position the button */
+}
 
 .project-empty-box {
     width: 300px;
@@ -116,11 +125,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    height: 100%;               /* Ensures full height for the page */
+    height: 100%;
+    /* Ensures full height for the page */
 }
 
 main {
-    flex: 1; /* Allows the main content to expand, pushing footer to the bottom */
+    flex: 1;
+    /* Allows the main content to expand, pushing footer to the bottom */
     padding: 2em;
 }
 
@@ -133,13 +144,20 @@ main {
 }
 
 footer {
-    width: 100%;           /* Makes the footer span the full width */
-    padding: 1em;          /* Adds padding around the text */
-    background: #6EB6B9;   /* Footer background color */
-    color: white;          /* Footer text color */
-    text-align: right;     /* Aligns text to the right */
-    box-sizing: border-box; /* Ensures padding is included within the width */
-    padding-right: 2em;    /* Adds extra padding to the right */
+    width: 100%;
+    /* Makes the footer span the full width */
+    padding: 1em;
+    /* Adds padding around the text */
+    background: #6EB6B9;
+    /* Footer background color */
+    color: white;
+    /* Footer text color */
+    text-align: right;
+    /* Aligns text to the right */
+    box-sizing: border-box;
+    /* Ensures padding is included within the width */
+    padding-right: 2em;
+    /* Adds extra padding to the right */
 }
 
 a {
@@ -174,7 +192,9 @@ a:hover {
     background-color: #336666;
 }
 
-#featured-projects, #welcome, #contact-teaser {
+#featured-projects,
+#welcome,
+#contact-teaser {
     margin: 2em 0;
     padding: 1.5em;
     background-color: #ffffff;
@@ -183,7 +203,9 @@ a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#featured-projects h3, #welcome h2, #contact-teaser h2 {
+#featured-projects h3,
+#welcome h2,
+#contact-teaser h2 {
     color: #333;
     font-size: 1.8em;
     margin-bottom: 0.5em;
@@ -216,43 +238,102 @@ a:hover {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em; 
-    justify-content: flex-start; 
-  }
-  
-  .project {
-    width: 300px; /* Fixed width for each project */
+    gap: 1em;
+    justify-content: flex-start;
+}
+
+.project {
+    width: 300px;
+    /* Fixed width for each project */
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1em;
     background: white;
     text-align: center;
-  }
-  
-  .project img {
+}
+
+.project img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-  }
-  
-  .project h3 {
+}
+
+.project h3 {
     margin: 0.5em 0;
-  }
-  
-  .project p {
+}
+
+.project p {
     font-size: 0.9em;
-  }
-  
-  /* Responsive design for smaller screens */
-  @media (max-width: 768px) {
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
     .project {
-      flex: 1 1 calc(50% - 1em); /* Two projects per row on smaller screens */
+        flex: 1 1 calc(50% - 1em);
+        /* Two projects per row on smaller screens */
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .project {
-      flex: 1 1 100%; /* One project per row on very small screens */
+        flex: 1 1 100%;
+        /* One project per row on very small screens */
     }
-  }
+}
+
+#university-article {
+    margin: 2em 0;
+    padding: 1.5em;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#university-article h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.article-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.article-content img {
+    max-width: 150px;
+    /* Adjust the size of the thumbnail as needed */
+    height: auto;
+    border-radius: 5px;
+}
+
+.article-text {
+    max-width: 600px;
+}
+
+.article-text p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+#university-article .btn {
+    background-color: #4a8c88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+#university-article .btn:hover {
+    background-color: #336666;
+}
