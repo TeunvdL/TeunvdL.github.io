@@ -135,9 +135,10 @@ main {
 footer {
     background: #6EB6B9;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 1em;
     margin-top: auto; /* Pushes the footer to the bottom */
+    margin-right: 2em;
 }
 
 
