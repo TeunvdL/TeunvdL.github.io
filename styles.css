@@ -218,10 +218,11 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 1em; /* Adjust the gap between projects as needed */
+    justify-content: center;
   }
   
   .project {
-    flex: 1 1 calc(33.333% - 1em); /* Adjust the width of each project */
+    width: 300px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
