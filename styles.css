@@ -325,3 +325,10 @@ a:hover {
 #university-article .btn:hover {
     background-color: #336666;
 }
+
+.center-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust as needed */
+}
