@@ -289,8 +289,8 @@ a:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
+    text-align: left; /* Change from center to left */
+}
   
   #university-article h2 {
     color: #333;
@@ -300,10 +300,10 @@ a:hover {
   
   .article-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start; /* Change from center to flex-start */
+    justify-content: flex-start; /* Change from center to flex-start */
     gap: 1em;
-  }
+}
   
   .article-content img {
     max-width: 150px; /* Adjust the size of the thumbnail as needed */
