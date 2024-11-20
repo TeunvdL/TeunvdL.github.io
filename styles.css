@@ -338,10 +338,11 @@ a:hover {
 }
 
 .center-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto; /* Adjust as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%; /* Adjust as needed */
+    height: auto;
 }
 
 .center-pdf {
