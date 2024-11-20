@@ -337,6 +337,13 @@ a:hover {
     height: auto; /* Adjust as needed */
 }
 
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust as needed */
+}
+
 .center-pdf {
     display: flex;
     flex-direction: column;
