@@ -1,3 +1,11 @@
+html, body {
+    margin: 0;                  /* Remove any default browser margins */
+    padding: 0;                 /* Remove any default browser padding */
+    height: 100%;               /* Make the page take up the full viewport height */
+    display: flex;              /* Use flexbox for layout */
+    flex-direction: column;     /* Stack header, main, and footer vertically */
+}
+
 /* Header Styling */
 header {
     display: flex;
