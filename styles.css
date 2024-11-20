@@ -137,8 +137,9 @@ footer {
     color: white;
     text-align: right;
     padding: 1em;
-    margin-top: auto; /* Pushes the footer to the bottom */
+    margin-top: auto;
     margin-right: 2em;
+    width: 100%;
 }
 
 
