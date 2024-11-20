@@ -217,8 +217,8 @@ a:hover {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em; /* Adjust the gap between projects as needed */
-    justify-content: center; /* Center the projects container */
+    gap: 1em; 
+    justify-content: flex-start; 
   }
   
   .project {
