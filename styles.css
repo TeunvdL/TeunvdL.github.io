@@ -160,7 +160,7 @@ a:hover {
     background-color: #336666;
 }
 
-#introduction {
+#featured-projects, #welcome, #contact-teaser {
     margin: 2em 0;
     padding: 1.5em;
     background-color: #ffffff;
@@ -169,16 +169,33 @@ a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#introduction h2 {
+#featured-projects h3, #welcome h2, #contact-teaser h2 {
     color: #333;
     font-size: 1.8em;
     margin-bottom: 0.5em;
     text-align: center;
 }
 
-#introduction p {
-    color: #555;
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin: 1em 0;
+.project-highlight {
+    margin: 1.5em 0;
+}
+
+.project-highlight a.btn {
+    display: inline-block;
+    margin-top: 0.5em;
+    color: white;
+    background-color: #6EB6B9;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.project-highlight a.btn:hover {
+    background-color: #4a8c88;
+}
+
+#contact-teaser {
+    text-align: center;
+    font-size: 1.2em;
 }
