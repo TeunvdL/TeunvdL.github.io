@@ -1,9 +1,13 @@
 html, body {
-    margin: 0;                  /* Remove any default browser margins */
-    padding: 0;                 /* Remove any default browser padding */
-    height: 100%;               /* Make the page take up the full viewport height */
-    display: flex;              /* Use flexbox for layout */
-    flex-direction: column;     /* Stack header, main, and footer vertically */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 /* Header Styling */
@@ -116,7 +120,7 @@ body {
 }
 
 main {
-    flex: 1; /* Makes the main content expand to push the footer down */
+    flex: 1; /* Allows the main content to expand, pushing footer to the bottom */
     padding: 2em;
 }
 
@@ -129,12 +133,11 @@ main {
 }
 
 footer {
-    background: #6EB6B9;     /* Footer background color */
-    color: white;            /* Footer text color */
-    text-align: right;       /* Aligns the text to the right */
-    padding: 1em 2em;        /* Adds padding around the text */
-    box-sizing: border-box;  /* Ensures padding is included in width */
-    width: 100%;             /* Ensures the footer spans the full width */
+    background: #6EB6B9;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto; /* Pushes the footer to the bottom */
 }
 
 
