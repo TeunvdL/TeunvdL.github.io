@@ -133,9 +133,6 @@ main {
 }
 
 footer {
-    position: fixed;       /* Keeps the footer fixed at the bottom */
-    bottom: 0;             /* Aligns the footer to the bottom of the viewport */
-    right: 0;              /* Ensures the footer aligns to the right edge */
     width: 100%;           /* Makes the footer span the full width */
     padding: 1em;          /* Adds padding around the text */
     background: #6EB6B9;   /* Footer background color */
